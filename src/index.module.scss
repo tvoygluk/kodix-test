@@ -1,0 +1,30 @@
+@import "src/style/style";
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Lab Grotesque", "Arial", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  min-width: $mobile-width;
+  background: #FF5E56 linear-gradient(255.35deg, #DC3131 0.83%, rgba(255, 79, 79, 0) 108.93%) fixed;
+}
+
+html,
+body,
+[id=root] {
+  height: 100%;
+}
